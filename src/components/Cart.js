@@ -17,7 +17,7 @@ function Cart(){
   return (
    <>{stateData.length !== 0 ? 
    stateData.map( data => <div key={data.id} className='cartContainer'> 
-   <img src={data.image} alt={data.image} onClick={()=>{navigate(`/about/${data.id}`)}}/>
+   <img src={process.env.PUBLIC_URL + data.image} alt={data.image} onClick={()=>{navigate(`/about/${data.id}`)}}/>
    <h2>{data.name}</h2><p> 수량 : {data.count}</p><p>총 가격 : {(data.price*data.count).toLocaleString()} 원</p>
    {btnFunction.map( (res, i) =>  <React.Fragment key={i}><button onClick={ () => { 
      dispatch(res(data.id)) } }>{btnText[i]}</button></React.Fragment> )}
