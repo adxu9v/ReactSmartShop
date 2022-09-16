@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ReactSmartShop/static/css/main.d5077c0d.css",
-    "main.js": "/ReactSmartShop/static/js/main.13c53608.js",
+    "main.js": "/ReactSmartShop/static/js/main.c21151fd.js",
     "static/js/787.0fde7be3.chunk.js": "/ReactSmartShop/static/js/787.0fde7be3.chunk.js",
     "index.html": "/ReactSmartShop/index.html",
     "main.d5077c0d.css.map": "/ReactSmartShop/static/css/main.d5077c0d.css.map",
-    "main.13c53608.js.map": "/ReactSmartShop/static/js/main.13c53608.js.map",
+    "main.c21151fd.js.map": "/ReactSmartShop/static/js/main.c21151fd.js.map",
     "787.0fde7be3.chunk.js.map": "/ReactSmartShop/static/js/787.0fde7be3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d5077c0d.css",
-    "static/js/main.13c53608.js"
+    "static/js/main.c21151fd.js"
   ]
 }
