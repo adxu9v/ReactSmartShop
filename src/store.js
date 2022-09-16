@@ -23,8 +23,8 @@ const productData = createSlice({
 const cartData = createSlice({
     name:'cartData',
     initialState:[
-        {id : 0, name : 'Iphone 13 Pro', count : 2, price : 1499000, image : `/iphone13pro.jpeg`},
-        {id : 2, name : 'Galaxy Z Flip 3', count : 1, price : 1254000, image : `/galaxyZFlip3.jpeg`}
+        {id : 0, name : 'Iphone 13 Pro', count : 2, price : 1499000, image : data[0].image},
+        {id : 2, name : 'Galaxy Z Flip 3', count : 1, price : 1254000, image : data[2].image}
       ],
       reducers: {
           add(state,actions){
