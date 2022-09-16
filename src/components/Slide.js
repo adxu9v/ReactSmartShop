@@ -6,7 +6,6 @@ function Adv(){
     <>
         <div className='slideBox'>
             <img src =  {`${process.env.PUBLIC_URL}/galaxyZFlipSlide1.jpeg`} alt="AdvImg" onClick={()=>{navigate('./about/2')}}/>
-            
         </div>
     </>
   )
