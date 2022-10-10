@@ -190,8 +190,6 @@ img{
   background-color: #000;
   color: #fff;
   padding: 40px;
-  display: flex;
-  justify-content: center;
 }
 .footerContainer * {
   margin-right: 10px;
