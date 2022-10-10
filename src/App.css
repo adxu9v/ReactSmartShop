@@ -14,10 +14,22 @@
 nav{
   width: 100%;
   padding: 20px;
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
+  border-bottom: 1px solid #bdbdbd;
+  color: #000;
   display: flex;
   justify-content: space-between;
+}
+.logo {
+  font-size: 30px;
+  color: blue;
+}
+.cartBox>ul{
+  display: flex;
+}
+.cartBox>ul>li{
+  font-size: 14px;
+  padding: 0px 5px;
 }
 /* slide */
 .slideBox{
@@ -111,7 +123,7 @@ nav{
   top: -5px;
   right: -10px;
 }
-.cartBox > p{
+.cartNumber{
   margin-left: 5px;
   padding: 0 5px;
   border-radius: 10px;

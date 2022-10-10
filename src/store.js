@@ -59,7 +59,11 @@ const cartData = createSlice({
           //카트 컴포넌트 안의 상품 제거
           deleteCart(state,actions){
               return state.filter(state => state.id !== actions.payload)
-          }
+          },
+          buy(state,actions){
+            return state = []
+
+        }
       } 
 })
 export const {sortCart, sortName, sortRank} = productData.actions

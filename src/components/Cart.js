@@ -33,7 +33,7 @@ function Cart(){
     {stateData.length !== 0 ? <button onClick={()=>{setModal(true)}}>구매하기</button> : null}
     {modal ? <div className='cartModal' > 총금액 : {total(stateData).toLocaleString()} 원
     {/* 구매시 총금액, 구매 버튼 메세지 출력, 버튼 클릭 시 홈페이지 맨 위로 이동, 카트 페이지에 있는 상품들 전부 제거 */}
-     <button onClick={()=>{dispatch(buy()); setModal(false); navigate('/'); window.scrollTo(0,0)}}>구매하시겠습니까?</button>
+     <button onClick={()=>{console.log('1'); dispatch(buy()); setModal(false); navigate('/'); window.scrollTo(0,0)}}>구매하시겠습니까?</button>
      {/* 모달창 닫기 버튼 */}
      <div className='modalClose' onClick={()=>{setModal(false)}}>X</div></div> : null}
    </div>
