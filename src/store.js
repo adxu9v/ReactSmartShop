@@ -27,7 +27,7 @@ const productData = createSlice({
 //카트 컴포넌트
 const cartData = createSlice({
     name:'cartData',
-    //카트 안에 이미 담겨여 있는 데이터
+    //카트 안에 이미 담겨여 있는 데이터(Iphone 13 Pro, Galaxy Z Flip 3)
     initialState:[
         {id : 0, name : 'Iphone 13 Pro', count : 2, price : 1499000, image : data[0].image},
         {id : 2, name : 'Galaxy Z Flip 3', count : 1, price : 1254000, image : data[2].image}
@@ -60,9 +60,9 @@ const cartData = createSlice({
           deleteCart(state,actions){
               return state.filter(state => state.id !== actions.payload)
           },
+          //카트 컴포넌트 구매 버튼 클릭 시 카트 전부 삭제
           buy(state,actions){
             return state = []
-
         }
       } 
 })

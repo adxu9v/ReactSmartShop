@@ -8,6 +8,7 @@ function Cart(){
   const stateData = useSelector( state => state.cartData )
   const btnFunction = [increase, decrease, deleteCart]
   const btnText = ['+', '-', '삭제']
+  //카트 안의 상품 총가격
   const total = (arr) => {
     return arr.reduce((cal, data) => {
       return cal + data.price * data.count;
